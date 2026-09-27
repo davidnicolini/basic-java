@@ -70,7 +70,7 @@ public class MainAnimal {
     public void listAnimals(){
         Scanner scan = new Scanner(System.in);
         for (int animal=0; animal<size; animal++){
-            System.out.println("nimal code: " + animal);
+            System.out.println("Animal code: " + animal);
             animals[animal].movesAround();
         }
         System.out.println("Enter the code of the animal you wish to see.");
